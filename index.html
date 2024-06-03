@@ -1,118 +1,83 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mounika Vegi's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <div class="profile-container">
-            <img src="https://github.com/Mounikavegi" alt="Mounika Vegi" class="profile-pic">
-            <h1>Mounika Vegi</h1>
-            <p>Experienced Data Engineer/Data Analyst</p>
+        <nav>
+            <div class="container">
+                <h1>Mounika Vegi</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
     <section id="about">
-        <h2>About Me</h2>
-        <p>Experienced Data Engineer/Data Analyst with 4+ years in cloud-based platforms, ETL pipelines, Big Data technologies, and data visualization.</p>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Languages: Python, SQL</li>
-            <li>Python Libraries: NumPy, Pandas, Matplotlib, Seaborn</li>
-            <li>Cloud Platforms: Azure (Azure Data Factory, Databricks, Logic Apps), AWS (Glue, S3, EMR)</li>
-            <li>Data Visualization: Power BI, Tableau</li>
-            <li>Big Data Technologies: Hadoop, Spark, Kafka, Snowflake</li>
-            <li>Development & Tools: Git, GitHub, Agile Methodology, CI/CD pipelines, API Development</li>
-            <li>RDBMS Database Technologies: SQL Server, Azure SQL Data Warehouse, Snowflake</li>
-            <li>Data Integration: ETL Pipelines (PySpark, Spark SQL, AWS Glue)</li>
-        </ul>
+        <div class="container">
+            <img src="imagep.jpeg" alt="Mounika Vegi" class="profile-pic">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Experienced Data Engineer/Data Analyst with 4+ years in cloud-based platforms, ETL pipelines, Big Data technologies, and data visualization.</p>
+            </div>
+        </div>
     </section>
     <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li><strong>United Health Group (UHG/ OPTUM)</strong> - Data Engineer/Analyst (April 2023 – Present)
-                <ul>
-                    <li>Leveraged Azure Data Factory and Azure Cloud to successfully migrate and transform 60% of data.</li>
-                    <li>Spearheaded implementation of Kafka and Stream Sets, enhancing real-time data streaming capabilities.</li>
-                    <li>Led Snowflake database application development, showcasing advanced Data Modeling and SQL skills.</li>
-                    <li>Managed development of Spark applications and ETL pipelines, overseeing data extraction, transformation, and aggregation tasks.</li>
-                </ul>
-            </li>
-            <li><strong>Wipro</strong> - Data Analyst (December 2022 – March 2023)
-                <ul>
-                    <li>Optimized performance through Spark and leveraging SQL for data analysis across diverse Oracle systems.</li>
-                    <li>Orchestrated report structures in Power BI, utilizing PivotTables and V-Lookups for streamlined data presentation.</li>
-                    <li>Led development of Mapping Documents and ETL specifications, driving project documentation needs.</li>
-                    <li>Contributed to Relational and Dimensional models using ERWIN.</li>
-                </ul>
-            </li>
-            <li><strong>Accenture</strong> - Data Analyst (June 2019 – July 2021)
-                <ul>
-                    <li>Developed and optimized SQL Server databases, enhancing operational efficiency.</li>
-                    <li>Utilized statistical techniques and SAS to interpret data, increasing data-driven insights.</li>
-                    <li>Improved data accessibility and integrity by acquiring and maintaining diverse data sources.</li>
-                    <li>Leveraged Tableau for interactive dashboard creation and Excel for ad-hoc reporting.</li>
-                </ul>
-            </li>
-        </ul>
+        <div class="container">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>United Health Group (UHG/ OPTUM)</strong> - Data Engineer/Analyst (April 2023 – Present)</li>
+                <li><strong>Wipro</strong> - Data Analyst (December 2022 – March 2023)</li>
+                <li><strong>Accenture</strong> - Data Analyst (June 2019 – July 2021)</li>
+            </ul>
+        </div>
     </section>
     <section id="projects">
-       <section class="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="project">
-                    <img src="Olympic_image.png" alt="Project 1">
-                    <h3>Olympic data analysis</h3>
-                    <p>The Tokyo Olympic Data Analysis on Azure project leverages Azure's data services to efficiently process, transform, and visualize historical Olympic data for extracting valuable insights.     </div>
-                <div class="project">
-                    <img src="pizza_images.png" alt="Project 2">
-                    <h3>Pizza Sales</h3>
-                    <p>Analyzing 2015 pizza store sales to inform strategic planning using Power BI.
-                </div>class="project">
-                    <img src="Adventure_image.png" alt="Project 3">
-                    <h3>Adventure work Sales</h3>
-                    <p>This project creates a Power BI dashboard to analyze Adventure Works' sales data using structured SQL and Power Query transformations.
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="images/project1.jpg" alt="Project 1" class="project-img">
+                <div class="project-info">
+                    <h3>Financial Data Analysis and Modeling</h3>
+                    <p>Executed comprehensive financial data analysis using Microsoft Excel, integrating V-lookup, statistical functions, and regression modeling to identify outliers and perform hypothesis testing; findings informed strategic business decisions, optimizing operational efficiency and enhancing financial performance.</p>
+                    <a href="https://github.com/username/financial-data-analysis" target="_blank">View Project</a>
                 </div>
-            <li><strong>Financial Data Analysis and Modeling</strong>
-                <ul>
-                    <li>Executed comprehensive financial data analysis using Microsoft Excel, integrating V-lookup, statistical functions, and regression modeling.</li>
-                    <li>Utilized Python for data preprocessing and cleaning, ensuring data accuracy and integrity.</li>
-                    <li>Applied statistical techniques and hypothesis testing to derive actionable insights.</li>
-                </ul>
-            </li>
-            <li><strong>Interactive Dashboard Development for Education Trends</strong>
-                <ul>
-                    <li>Developed interactive dashboards and insightful reports on US education trends using Power BI.</li>
-                    <li>Integrated data from various sources including SQL databases and CSV files.</li>
-                    <li>Showcased proficiency in Power BI tools, increasing data visualization effectiveness.</li>
-                </ul>
-            </li>
-        </ul>
+            </div>
+            <div class="project">
+                <img src="images/project2.jpg" alt="Project 2" class="project-img">
+                <div class="project-info">
+                    <h3>Interactive Dashboard Development for Education Trends</h3>
+                    <p>Developed interactive dashboards and insightful reports on US education trends, UIC code analysis, and unemployment rates using Power BI, showcasing data visualization skills and proficiency in Power BI tools.</p>
+                    <a href="https://github.com/username/education-dashboard" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:vmouni18@example.com">vmouni18@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/mounika-sai-46b1b5272" target="_blank">linkedin.com/in/mounika-sai</a></p>
-        <p>GitHub: <a href="https://github.com/Mounikavegi" target="_blank">github.com/Mounikavegi</a></p>
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via <a href="mailto:vmouni18@example.com">vmouni18@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mounika-sai-46b1b5272" target="_blank">linkedin.com/in/mounika-sai</a></p>
+            <p>GitHub: <a href="https://github.com/Mounikavegi" target="_blank">github.com/Mounikavegi</a></p>
+       </div>
     </section>
     <footer>
-        <p>&copy; 2024 Mounika Vegi</p>
+        <div class="container">
+            <p>&copy; 2024 Mounika Vegi</p>
+        </div>
     </footer>
 </body>
 </html>
+
+
+
 
 
 
