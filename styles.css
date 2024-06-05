@@ -1,47 +1,34 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f8ff; /* Light blue background */
-    color: #333; /* Dark text color */
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
 
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
 header {
-    text-align: center;
-    background-color: #555; /* Dark gray header background */
-    color: #f0f8ff; /* Light text color */
+    background-color: #007bff;
+    color: #fff;
     padding: 20px;
+    text-align: center;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.profile-pic {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    max-width: 200px; /* Adjust profile picture size */
-}
-
-.project {
-    display: flex;
+section {
+    padding: 20px;
     margin-bottom: 20px;
-}
-
-.project-img {
-    max-width: 200px; /* Adjust project image size */
-    margin-right: 20px;
-}
-
-.project-info {
-    flex: 1;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
+    background-color: #007bff;
+    color: #fff;
     text-align: center;
-    background-color: #555; /* Dark gray footer background */
-    color: #f0f8ff; /* Light text color */
-    padding
+    padding: 10px 0;
+}
