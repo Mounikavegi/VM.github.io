@@ -9,19 +9,19 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #20232a; /* Change header background color */
+    background-color: #f0f8ff; /* Change header background color */
 }
 
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 8px;
 }
 
 .project {
     background-color: #282c34; /* Change project card background color */
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -47,13 +47,13 @@ header {
 
 .profile img {
     border-radius: 50%;
-    max-width: 150px; /* Reduce image size */
+    max-width: 120px; /* Reduce image size */
     display: block;
     margin: 0 auto;
 }
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 20px;
-    padding: 20px;
+    padding: 10px;
 }
