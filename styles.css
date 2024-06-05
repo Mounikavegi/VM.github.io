@@ -1,42 +1,55 @@
 body {
     font-family: "Courier New", monospace; /* Change font family */
-    background-color: #f0f0f0; /* Light grey background color */
-    color: #333333; /* Dark grey text color */
+    background-color: #282c34; /* Darker background color */
+    color: #61dafb; /* Light blue text color */
     margin: 0;
     padding: 0;
 }
 
 header {
     text-align: center;
-    padding: 20px;
-    background-color: #333333; /* Dark grey header background color */
-    color: #ffffff; /* White text color for the header */
+    padding: 30px;
+    background-color: #20232a; /* Dark grey header background color */
+    color: #ffffff; /* White header text color */
+    border-bottom: 4px solid #61dafb; /* Light blue border at the bottom of header */
 }
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted for more flexibility */
+    gap: 25px;
+    padding: 25px;
 }
 
 .project {
-    background-color: #ffffff; /* White project card background color */
+    background-color: #3a3f47; /* Dark grey project card background color */
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for a softer look */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); /* Increased shadow for more depth */
+    transition: transform 0.2s, box-shadow 0.2s; /* Add transition for hover effect */
+}
+
+.project:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8); /* Darker shadow on hover */
 }
 
 .project h2 {
     margin-top: 0;
-    color: #555555; /* Dark grey color for project titles */
+    color: #ffffff; /* White color for project titles */
+}
+
+.project p {
+    color: #dcdcdc; /* Light grey color for project descriptions */
 }
 
 .project a {
-    color: #ff5722; /* Orange color for links */
+    color: #61dafb; /* Light blue link color */
     text-decoration: none;
+    font-weight: bold;
 }
 
 .project a:hover {
     text-decoration: underline;
+    color: #21a1f1; /* Darker blue on hover */
 }
