@@ -1,7 +1,7 @@
 body {
     font-family: "Courier New", monospace; /* Change font family */
-    background-color: #333; /* Change background color */
-    color: #ffffff;
+    background-color: #f0f0f0; /* Light grey background color */
+    color: #333333; /* Dark grey text color */
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,8 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #555; /* Change header background color */
+    background-color: #333333; /* Dark grey header background color */
+    color: #ffffff; /* White text color for the header */
 }
 
 .projects {
@@ -20,18 +21,19 @@ header {
 }
 
 .project {
-    background-color: #444; /* Change project card background color */
+    background-color: #ffffff; /* White project card background color */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for a softer look */
 }
 
 .project h2 {
     margin-top: 0;
+    color: #555555; /* Dark grey color for project titles */
 }
 
 .project a {
-    color: #4caf50;
+    color: #ff5722; /* Orange color for links */
     text-decoration: none;
 }
 
